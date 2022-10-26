@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nmap fkielpinski</title>
+    <link rel="stylesheet" href="/wiki-guides/nmap/nmap-style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital@1&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li id="logo"><a href='/index.html'><img class="animated-gif" src='https://media.giphy.com/media/GjDecCEEGJb82Tcm8B/giphy.gif'></a></li>
+            
+            <li><a href="/write-ups/write-ups-index.html">WRITE-UPS</a></li>
+            <li><a href="/wiki-guides/wiki-guides-index.html">WIKI-GUIDES</a></li>
+            <li><a href="/about-me/about-me-index.html">ABOUT-ME</a></li>
+            <br>
+            <li><a href="../wiki-guides-index.html" style="margin-right: 30px;">BACK</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h4>
+            Skan portów 80, 443 oraz 8080 na localhoscie.
+            Są to domyślne porty wykorzystywane przez serwery HTTP:<br>
+        </h4>
+        <div class="command">
+            <p>
+                $ nmap -p 80,443,8080 127.0.0.1
+            </p>
+        </div>
+        <div class="example">
+            <img src="/wiki-guides/nmap/1.png">
+        </div>
+    </main>
+</body>
+</html>

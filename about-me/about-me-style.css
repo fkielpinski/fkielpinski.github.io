@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+
+*
+{
+    background-color: #0F0C24;
+    font-family: 'Bungee', cursive;
+}
+
+body
+{
+    position: absolute;
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+    box-shadow: 0px 0px 30px 40px black inset;
+}
+
+nav
+{
+    position: relative;
+    margin: 55px;
+}
+
+ul
+{
+    list-style-type: none;
+    overflow: hidden;
+}
+
+#logo
+{
+    float: left;
+    margin-top: -10px;
+}
+
+img.animated-gif
+{
+    width: 120px;
+    height: auto;
+}
+
+nav li
+{
+    float: right;
+    display: block;
+    color: #FFF;
+    padding: 10px;
+    margin-top: 25px;
+    margin-right: 30px;
+    font-size: 1.5em;
+    
+}
+
+nav li a:link
+{
+    display: block;
+    text-decoration: none;
+    color: #FFF;
+}
+
+nav li a:visited
+{
+    text-decoration: none;
+    color: #FFF;
+}
+
+nav li a:hover 
+{
+    color: #C1436D;
+}
+
+
+main
+{
+    margin: 70px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 2px 2px #C1436D;
+}
+
+main h3
+{
+    font-size: 25px;
+}
+
+
+main h4 a:link
+{
+    text-decoration: none;
+    color: #FFF;
+    padding: 5px;
+}
+
+main h4 a:visited
+{
+    text-decoration: none;
+    color: #FFF;
+}
+
+main h4 a:hover
+{
+    text-shadow: 3px 3px #C1436D;
+}
+
+
